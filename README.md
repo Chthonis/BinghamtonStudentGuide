@@ -1,0 +1,2 @@
+# BinghamtonStudentGuide
+Software Engineering Project
