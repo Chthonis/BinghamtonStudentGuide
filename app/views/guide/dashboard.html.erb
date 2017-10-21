@@ -1,2 +1,24 @@
-<h1>Guide#dashboard</h1>
+<h1>Dashboard</h1>
 <p>Find me in app/views/guide/dashboard.html.erb</p>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/default.css" type="text/css">
+    <title>Dash</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="header" class="span-24">
+        <p>Didn't know what you actually wanted for dashboard/how it'd work, just made a page to link to named that</p>
+      </div>
+      <div class="span-24">
+        <%= yield %>
+      </div>
+      <div id="footer" class="span-24">
+        <p>CS 545</p>
+      </div>
+      <%= link_to '<button type="button">Go to Homepage</button>'.html_safe, guide_homepage_path %>
+    </div>
+  </body>
+</html>
